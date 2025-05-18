@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "title": "Embedded Systems Engineering",
+      "description": "In a team of four, design, development, and implementation of a software architecture on two Festo sorting systems with QNX (RTOS).\r\n",
+      "extra_description": "Focus areas: Interrupt handling, Finite State Machines, Fail-Safe.",
+      "tags": ["C++", "Embedded", "Software Engineering"],
+      "highlighted": true,
+      "link": "projects.html#project-1"
+    },
+    {
+      "id": 2,
+      "title": "Computer Networks",
+      "description": "Design and implementation of a TCP-based peer-to-peer application protocol with an overlay network.",
+      "tags": ["Java", "Networking", "Protocols"],
+      "highlighted": true,
+      "link": "projects.html#project-2"
+    },
+    {
+      "id": 3,
+      "title": "Project Gamma",
+      "description": "Machine learning model for predicting sales.",
+      "tags": ["Python", "Machine Learning", "Data Science"],
+      "highlighted": false,
+      "link": "projects.html#project-3"
+    },
+    {
+      "id": 4,
+      "title": "Project Delta",
+      "description": "Mobile app with Flutter and Firebase backend.",
+      "tags": ["Flutter", "Mobile"],
+      "highlighted": false,
+      "link": "projects.html#project-4"
+    }
+  ]
+  

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@600;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="fade-in">
+  <header class="header">
+    <div class="container">
+      <h1 class="title">&lt;SAMER SHAHROUR&gt;</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+        <h2>About Me</h2>
+        <div class="about-grid">
+          <div>
+            <p>Hi! I'm a full-stack developer with a strong focus on modern web technologies and user-centered design. I enjoy building sleek, efficient, and scalable digital experiences that solve real-world problems.</p>
+            <ul>
+              <li><strong>Email:</strong> myemail@example.com</li>
+              <li><strong>Phone:</strong> +123 456 7890</li>
+              <li><strong>Location:</strong> City, Country</li>
+              <li><strong>LinkedIn:</strong> <a href="#">linkedin.com/in/myprofile</a></li>
+              <li><strong>GitHub:</strong> <a href="#">github.com/myusername</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    <section id="highlighted-projects" class="card">
+      <h2>Highlighted Projects</h2>
+      <div id="highlighted-projects-list" class="project-grid">
+        <!-- Highlighted projects will be inserted here by script -->
+      </div>
+      <div class="center-nav">
+        <button class="button" onclick="location.href='projects.html'">View All Projects</button>
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact Me</h2>
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button class="button" type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
