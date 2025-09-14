@@ -16,7 +16,7 @@ async function renderHighlightedProjects() {
   container.innerHTML = highlighted
     .map(
       p => `
-      <a href="${p.link}" class="project-card" tabindex="0">
+      <a href="${p.link}" class="card project-card" tabindex="0">
         <h3>${p.title}</h3>
         <p>${p.description}</p>
         <div class="project-tags">
