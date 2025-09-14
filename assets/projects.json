@@ -18,19 +18,28 @@
     },
     {
       "id": 3,
-      "title": "Project Gamma",
-      "description": "Machine learning model for predicting sales.",
-      "tags": ["Python", "Machine Learning", "Data Science"],
+      "title": "Stereoimage rectification",
+      "description": "Stereo image rectification pipeline to generate 3D-viewable images for use with 3D glasses, applying different filters to enhance and optimize visual output.",
+      "tags": ["Python"],
       "highlighted": false,
       "link": "projects.html#project-3"
     },
     {
       "id": 4,
-      "title": "Project Delta",
-      "description": "Mobile app with Flutter and Firebase backend.",
-      "tags": ["Flutter", "Mobile"],
+      "title": "Web browser Engineering",
+      "description": "Built a simplified web browser from scratch as part of a group of over 15, based on the browser.engineering book, implementing key components such as HTML parsing, CSS-based rendering, and basic networking.",
+      "tags": ["Python", "Protocols"],
       "highlighted": false,
       "link": "projects.html#project-4"
+    },
+    {
+      "id": 5,
+      "title": "Cyber-Physical Systems",
+      "description": "Developed a cyber-physical system simulation of 3D printers and repair robots, featuring a MAPE loop for adaptive control.",
+      "tags": ["Python", "Software Engineering"],
+      "highlighted": false,
+      "link": "projects.html#project-5"
     }
+    
   ]
   

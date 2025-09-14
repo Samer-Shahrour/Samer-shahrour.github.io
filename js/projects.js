@@ -42,7 +42,7 @@ async function fetchProjects() {
       projectsList.innerHTML = filtered
         .map(
           p => `
-          <article id="project-${p.id}" class="project-card" tabindex="0" aria-label="Project: ${p.title}">
+          <article id="project-${p.id}" class="card project-card" tabindex="0" aria-label="Project: ${p.title}">
             <h3> ${p.title}</h3>
             <p>${p.description}
              ${p.extra_description ? `<br>${p.extra_description}` : '</p>'}
